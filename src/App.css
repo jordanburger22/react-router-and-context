@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+}
+
+.light{
+  background-color: bisque;
+  color: black;
+  min-height: 100vh;
+}
+
+.dark{
+  background-color: slategrey;
+  color: white;
+  min-height: 100vh;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid black 1px; */
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: dotted black 1px;
+  padding: 20px;
+}
+
+input{
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.todo-header{
+  text-decoration: underline;
+}
+
+.home-header{
+  text-decoration: underline;
+}
+
+.form-header{
+  text-decoration: underline;
+}
+
+.single-todo{
+  /* border: solid black 1px; */
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar{
+  border-bottom: solid black 2px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: slateblue;
+  align-items: center;
+  color: white;
+}
+
+.navbar-links{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
