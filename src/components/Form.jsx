@@ -29,8 +29,9 @@ function Form() {
 
     return ( 
         <div className='main form-container'>
-            <form onSubmit={handleSubmit} className='form'>
             <h1 className='form-header'>Add a todo!</h1>
+            <form onSubmit={handleSubmit} className='form'>
+                <h3>What needs done?</h3>
                 <input 
                     name='title'
                     value={formData.title}
